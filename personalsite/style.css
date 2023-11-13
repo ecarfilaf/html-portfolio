@@ -1,0 +1,109 @@
+body{
+	font-family:Roboto, Geneva, Tahoma, sans-serif;
+	color: white;
+}
+.psheader{
+	background-color: #164863 ;
+	position: sticky;
+	width: 100%;
+	top: 0;
+	z-index: 1;
+}
+.psfooter{
+	background-color: #164863;
+}
+.imgHeader{
+	display: block;
+	height: 100%;
+	background-image: url ("./imgs/Software_Development.jpg");
+}
+.psTitulo{
+	display: flex;
+	position: relative;
+	top: 400px;
+	font-size: 4em;
+}
+.psSubtitulo{
+	display: flex;
+	position: relative;
+	top: 400px;
+	font-size: 3em;
+}
+.profile-img {
+	height: 150px;
+	border-radius: 50%;
+}
+.contact-background-image{
+	background-image: url('./imgs/softwaredevelopmentbg.jpg');
+	width: 1330px;
+	height: 840px;
+}
+.psContactText{
+	color: #100840;
+}
+.psContactTitulo{
+	display: flex;
+	position: relative;
+	top: 400px;
+	left: 5px;
+	font-size: 4em;
+	opacity: 200%;
+}
+.psContactSubtitulo{
+	display: flex;
+	position: relative;
+	top: 400px;
+	font-size: 3em;
+}
+.pscontacto{
+	font-size: 5cap;
+	color: #100840;
+}
+#contacto{
+	position: relative;
+	width: fit-content;
+	height: fit-content;
+}
+#contactoFono{
+	position: absolute;
+	display: inline-block;
+	width: 450px;
+	top: 0;
+	margin-top: 0;
+	left: 0;
+	margin-left: 200px;
+	top: 0;
+	right: 0;
+}
+#contactoEmail{
+	position: absolute;
+	display: inline-block;
+	width: 650px;
+	top: 0;
+	margin-top: 100px;
+	left: 0;
+	margin-left: 50px;
+	top: 0;
+	right: 0;
+}
+#contactoLink{
+	position: absolute;
+	display: inline-block;
+	width: 900px;
+	top: 0;
+	margin-top: 200px;
+	left: 0;
+	margin-left: -30px;
+	top: 0;
+	right: 0;
+}
+#contactoAddress{
+	position: absolute;
+	display: inline-block;
+	width: 900px;
+	top: 0;
+	margin-top: 340px;
+	left: -80px;
+	top: 0;
+	right: 0;
+}
