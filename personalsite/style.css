@@ -42,68 +42,17 @@ body{
 	color: #100840;
 }
 .psContactTitulo{
-	display: flex;
-	position: relative;
-	top: 400px;
-	left: 5px;
 	font-size: 4em;
-	opacity: 200%;
 }
 .psContactSubtitulo{
-	display: flex;
-	position: relative;
-	top: 400px;
 	font-size: 3em;
+}
+.psContactoTexto{
+	font-size: 2em;
+	font-style: bold;
 }
 .pscontacto{
 	font-size: 4cap;
 	color: #100840;
 }
-#contacto{
-	position: relative;
-	width: fit-content;
-	height: fit-content;
-}
-#contactoFono{
-	position: absolute;
-	display: inline-block;
-	width: 450px;
-	top: 0;
-	margin-top: 0;
-	left: 0;
-	margin-left: 200px;
-	top: 0;
-	right: 0;
-}
-#contactoEmail{
-	position: absolute;
-	display: inline-block;
-	width: 650px;
-	top: 0;
-	margin-top: 100px;
-	left: 0;
-	margin-left: 50px;
-	top: 0;
-	right: 0;
-}
-#contactoLink{
-	position: absolute;
-	display: inline-block;
-	width: 900px;
-	top: 0;
-	margin-top: 200px;
-	left: 0;
-	margin-left: -30px;
-	top: 0;
-	right: 0;
-}
-#contactoAddress{
-	position: absolute;
-	display: inline-block;
-	width: 900px;
-	top: 0;
-	margin-top: 340px;
-	left: -80px;
-	top: 0;
-	right: 0;
-}
+
